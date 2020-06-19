@@ -3,18 +3,89 @@
     padding:0px;
     margin: 0px;
 }
-.header
+header
 {
     background: #415e9b;
     height: 82px;
     border-bottom: 1px solid #133783;
 
 }
-.wt
-{
-    color: #fff;
-    float: left;
+
+.header{
+    width:992px;
+    margin:0 auto;
+    padding-top: 20px;
+}
+.logo{
     width: 50%;
     float: left;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color:white;
+    
+}
+.fblogin{
+    width:50%;
+    float:left;
 }
 
+.header label{
+    color: #ffffff;
+}
+.email label{
+    padding-bottom: 10px;
+}
+.email input[type="text"]{
+    height: 20px;
+    width: 150px;
+    border: 1px solid #1d2a5b;
+}
+.email{
+    float: left;
+    
+}
+.password input[type="password"]{
+    height: 20px;
+    width: 150px;
+    border: 1px solid #1d2a5b;
+}
+.password label{
+    padding-bottom: 10px;
+    
+}
+.password a{
+    color: #8fb1d8;
+}
+.password label{
+    padding-bottom: 10px;
+}
+.password{
+    float: left;
+   margin-left: 15px;
+}
+.loginbutton{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.loginbutton input[type="submit"]{
+    background: #4267b2;
+    border: 1px solid #29487d;
+    border-radius: 2px;
+    color: #fff;
+    height: 20px;
+    width: 50px;
+}
+.clearfix{
+    clear: both;
+}
+.content-block{
+    width: 992px;
+    margin:0 auto;
+}
+.facebook-connect{
+    margin-top: 50px;
+}
+.facebook-connect{
+    color:blue;
+}
