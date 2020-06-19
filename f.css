@@ -1,0 +1,20 @@
+*
+{
+    padding:0px;
+    margin: 0px;
+}
+.header
+{
+    background: #415e9b;
+    height: 82px;
+    border-bottom: 1px solid #133783;
+
+}
+.wt
+{
+    color: #fff;
+    float: left;
+    width: 50%;
+    float: left;
+}
+
